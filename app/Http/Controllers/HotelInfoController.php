@@ -12,7 +12,16 @@ class HotelInfoController extends Controller
      */
     public function index()
     {
-        //
+        $guest=new HotelInfo;
+        $guest->fname="yasaman";
+        $guest->lname="golzari";
+        $guest->room_number="12";
+        $guest->save();
+
+        /*$all_guests=HotelInfo::all();*/
+        /*$guest=HotelInfo::where('id', '=', '9')->get();*/
+
+        return view('index');
     }
 
     /**
