@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 
+Route::resource('/hotel', '\App\Http\Controllers\HotelInfoController');
