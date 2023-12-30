@@ -12,6 +12,10 @@
 
 
 	{{--<i>{{ $guest[0]->fname}}</i>--}}
+
+<div style="background-image: url({{asset('dist/img/hotel-homepage.jpg')}}); width: 100%; height: 1000px;"></div>
+
+
 <div>
 	<img src="dist/img/hotel1.jpg" style="width:350px; height: 350px; border-radius: 50%; border: 5px dashed black">
 	<img src="dist/img/hotel2.jpg" style="width:350px; height: 350px; border-radius: 50%; border: 5px dashed black;">
